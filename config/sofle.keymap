@@ -70,7 +70,7 @@
 &kp F1     &kp F2          &kp F3                &kp F4                 &kp F5     &kp F6                       &kp F7     &kp F8        &kp F9        &kp F10       &kp F11    &kp F12
 &kp GRAVE  &none           &kp HOME              &kp UP_ARROW           &kp END    &none                        &none      &kp N7        &kp N8        &kp N9        &kp PLUS   &kp MINUS
 &trans     &kp EXCL        &kp LEFT              &kp DOWN_ARROW         &kp RIGHT  &kp PRCNT                    &kp CARET  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH  &kp ASTERISK
-&trans     &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LBRC   &kp RBRC   &trans    &trans  &kp LBKT   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BSLH   &kp EQUAL
+&trans     &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LBRC   &kp RBRC   &trans    &trans  &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BSLH   &kp EQUAL
                            &trans                &trans                 &trans     &trans     &trans    &trans  &trans     &trans        &trans        &trans
             >;
 
