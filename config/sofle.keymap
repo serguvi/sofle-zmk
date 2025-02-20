@@ -68,7 +68,7 @@
 
             bindings = <
 &kp F12  &kp F1            &kp F2                &kp F3                 &kp F4     &kp F5                       &kp F6            &kp F7        &kp F8        &kp F9        &kp F10    &kp F11
-&none    &kp INSERT        &kp HOME              &kp UP_ARROW           &kp END    &none                        &kp K_CALCULATOR  &kp N7        &kp N8        &kp N9        &kp PLUS   &kp MINUS
+&none    &kp INSERT        &kp HOME              &kp UP_ARROW           &kp END    &kp PIPE                     &kp K_CALCULATOR  &kp N7        &kp N8        &kp N9        &kp PLUS   &kp MINUS
 &trans   &kp LEFT_BRACKET  &kp LEFT              &kp DOWN_ARROW         &kp RIGHT  &kp PRCNT                    &none             &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH  &kp ASTERISK
 &trans   &kp UNDERSCORE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LBRC   &kp RBRC   &trans    &trans  &kp N0            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BSLH   &kp EQUAL
                            &trans                &trans                 &trans     &trans     &trans    &trans  &trans            &trans        &trans        &trans
