@@ -67,16 +67,16 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp F12  &kp F1            &kp F2                &kp F3                 &kp F4     &kp F5                       &kp F6            &kp F7        &kp F8        &kp F9        &kp F10       &kp F11
-&none    &kp INSERT        &kp HOME              &kp UP_ARROW           &kp END    &kp PIPE                     &kp K_CALCULATOR  &kp N7        &kp N8        &kp N9        &kp PLUS      &kp MINUS
-&trans   &kp LEFT_BRACKET  &kp LEFT              &kp DOWN_ARROW         &kp RIGHT  &kp PRCNT                    &none             &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &kp SLASH
-&trans   &kp UNDERSCORE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LBRC   &kp RBRC   &trans    &trans  &kp N0            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BSLH      &kp EQUAL
-                           &trans                &trans                 &trans     &trans     &trans    &trans  &trans            &trans        &trans        &trans
+&kp F12  &kp F1            &kp F2                &kp F3                 &kp F4          &kp F5                       &kp F6            &kp F7        &kp F8        &kp F9        &kp F10       &kp F11
+&none    &kp INSERT        &kp HOME              &kp UP_ARROW           &kp END         &kp PIPE                     &kp K_CALCULATOR  &kp N7        &kp N8        &kp N9        &kp PLUS      &kp MINUS
+&trans   &kp LEFT_BRACKET  &kp LEFT              &kp DOWN_ARROW         &kp RIGHT       &kp PRCNT                    &none             &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &kp SLASH
+&trans   &kp UNDERSCORE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RBRC   &trans    &trans  &kp N0            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BSLH      &kp EQUAL
+                           &trans                &trans                 &trans          &trans     &trans    &trans  &trans            &trans        &trans        &trans
             >;
 
             sensor-bindings =
-                <&inc_dec_kp DOWN UP_ARROW>,
-                <&inc_dec_kp RIGHT LEFT_ARROW>;
+                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>,
+                <&inc_dec_kp LC(RIGHT) LC(LEFT_ARROW)>;
         };
 
         raise_layer {
@@ -90,15 +90,15 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &trans      &trans            &trans      &trans     &trans   &trans
-&trans      &kp INS       &kp PSCRN     &kp K_CMENU   &trans        &trans                          &kp PG_UP   &kp HOME          &kp UP      &kp END    &none    &trans
-&trans      &kp LALT      &kp LCTRL     &kp LSHFT     &trans        &kp CLCK                        &kp PG_DN   &kp LEFT          &kp DOWN    &kp RIGHT  &kp DEL  &kp BSPC
-&trans      &kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans        &trans    &trans  &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT  &trans     &none    &none
-                          &trans        &trans        &trans        &trans        &trans    &trans  &trans      &trans            &trans      &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3     &bt BT_SEL 4                    &trans     &trans            &trans      &trans     &trans   &trans
+&trans      &kp INS       &kp PSCRN     &kp K_CMENU     &trans           &trans                          &kp PG_UP  &kp HOME          &kp UP      &kp END    &none    &trans
+&trans      &kp LALT      &kp LCTRL     &kp LSHFT       &trans           &kp CLCK                        &kp PG_DN  &kp LEFT          &kp DOWN    &kp RIGHT  &kp DEL  &kp BSPC
+&trans      &kp LC(Z)     &kp LC(X)     &kp LC(K_COPY)  &kp LC(K_PASTE)  &kp LC(B)     &trans    &trans  &kp LC(W)  &kp C_PLAY_PAUSE  &kp C_NEXT  &trans     &none    &none
+                          &trans        &trans          &trans           &trans        &trans    &trans  &trans     &trans            &trans      &trans
             >;
 
             sensor-bindings =
-                <&inc_dec_kp C_VOL_DN C_VOL_UP>,
+                <&inc_dec_kp LC(DOWN_ARROW) LC(UP_ARROW)>,
                 <&inc_dec_kp PG_UP PG_DN>;
         };
 
